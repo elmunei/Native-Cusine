@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8591739D1FC4144F00FA5ADB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8591739C1FC4144F00FA5ADB /* LoginViewController.swift */; };
+		8591739F1FC4147C00FA5ADB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8591739E1FC4147C00FA5ADB /* SignUpViewController.swift */; };
+		859173A11FC4156800FA5ADB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 859173A01FC4156800FA5ADB /* GoogleService-Info.plist */; };
+		85B85AE21FC4442A00A8F11E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B85ADF1FC4442900A8F11E /* Utilities.swift */; };
+		85B85AE31FC4442A00A8F11E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B85AE01FC4442900A8F11E /* Constants.swift */; };
+		85B85AE41FC4442A00A8F11E /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B85AE11FC4442900A8F11E /* FUser.swift */; };
+		85B85AE61FC44ACA00A8F11E /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B85AE51FC44ACA00A8F11E /* ResetPasswordViewController.swift */; };
 		85C1D8491FC3F146005F1A68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C1D8481FC3F146005F1A68 /* AppDelegate.swift */; };
-		85C1D84B1FC3F146005F1A68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C1D84A1FC3F146005F1A68 /* ViewController.swift */; };
+		85C1D84B1FC3F146005F1A68 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C1D84A1FC3F146005F1A68 /* WelcomeVC.swift */; };
 		85C1D84E1FC3F146005F1A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C1D84C1FC3F146005F1A68 /* Main.storyboard */; };
 		85C1D8501FC3F146005F1A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C1D84F1FC3F146005F1A68 /* Assets.xcassets */; };
 		85C1D8531FC3F146005F1A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C1D8511FC3F146005F1A68 /* LaunchScreen.storyboard */; };
+		85C1D8611FC3F69C005F1A68 /* CustomizableTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C1D85B1FC3F69C005F1A68 /* CustomizableTextfield.swift */; };
+		85C1D8621FC3F69C005F1A68 /* CustomizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C1D85C1FC3F69C005F1A68 /* CustomizableView.swift */; };
+		85C1D8631FC3F69D005F1A68 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C1D85D1FC3F69C005F1A68 /* Swift+Gif.swift */; };
+		85C1D8641FC3F69D005F1A68 /* CustomizableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C1D85E1FC3F69C005F1A68 /* CustomizableButton.swift */; };
+		85C1D8651FC3F69D005F1A68 /* CustomizableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C1D85F1FC3F69C005F1A68 /* CustomizableImageView.swift */; };
+		85C1D8661FC3F69D005F1A68 /* ETRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C1D8601FC3F69C005F1A68 /* ETRadioButton.swift */; };
+		85C1D8681FC4048D005F1A68 /* Splash Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C1D8671FC4048D005F1A68 /* Splash Screen.png */; };
+		A7BCA5667F6A6A4B07482A40 /* Pods_Native_Cusine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654353D64A9C53627FB419F7 /* Pods_Native_Cusine.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37F992F2EF96BAB9438E26F6 /* Pods-Native Cusine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Native Cusine.release.xcconfig"; path = "Pods/Target Support Files/Pods-Native Cusine/Pods-Native Cusine.release.xcconfig"; sourceTree = "<group>"; };
+		654353D64A9C53627FB419F7 /* Pods_Native_Cusine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Native_Cusine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8591739C1FC4144F00FA5ADB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8591739E1FC4147C00FA5ADB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		859173A01FC4156800FA5ADB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		85B85ADF1FC4442900A8F11E /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		85B85AE01FC4442900A8F11E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		85B85AE11FC4442900A8F11E /* FUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
+		85B85AE51FC44ACA00A8F11E /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		85C1D8451FC3F146005F1A68 /* Native Cusine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Native Cusine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C1D8481FC3F146005F1A68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		85C1D84A1FC3F146005F1A68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85C1D84A1FC3F146005F1A68 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		85C1D84D1FC3F146005F1A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85C1D84F1FC3F146005F1A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85C1D8521FC3F146005F1A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85C1D8541FC3F146005F1A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C1D85B1FC3F69C005F1A68 /* CustomizableTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableTextfield.swift; sourceTree = "<group>"; };
+		85C1D85C1FC3F69C005F1A68 /* CustomizableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableView.swift; sourceTree = "<group>"; };
+		85C1D85D1FC3F69C005F1A68 /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		85C1D85E1FC3F69C005F1A68 /* CustomizableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableButton.swift; sourceTree = "<group>"; };
+		85C1D85F1FC3F69C005F1A68 /* CustomizableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableImageView.swift; sourceTree = "<group>"; };
+		85C1D8601FC3F69C005F1A68 /* ETRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETRadioButton.swift; sourceTree = "<group>"; };
+		85C1D8671FC4048D005F1A68 /* Splash Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Splash Screen.png"; sourceTree = "<group>"; };
+		89216EEBC9A337960A4158E1 /* Pods-Native Cusine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Native Cusine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Native Cusine/Pods-Native Cusine.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7BCA5667F6A6A4B07482A40 /* Pods_Native_Cusine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17DDAB39436B750931FFF4CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				654353D64A9C53627FB419F7 /* Pods_Native_Cusine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CEA351A15210259405CC878 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89216EEBC9A337960A4158E1 /* Pods-Native Cusine.debug.xcconfig */,
+				37F992F2EF96BAB9438E26F6 /* Pods-Native Cusine.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85B85ADE1FC443FE00A8F11E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				85B85AE01FC4442900A8F11E /* Constants.swift */,
+				85B85AE11FC4442900A8F11E /* FUser.swift */,
+				85B85ADF1FC4442900A8F11E /* Utilities.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		85C1D83C1FC3F146005F1A68 = {
 			isa = PBXGroup;
 			children = (
 				85C1D8471FC3F146005F1A68 /* Native Cusine */,
 				85C1D8461FC3F146005F1A68 /* Products */,
+				7CEA351A15210259405CC878 /* Pods */,
+				17DDAB39436B750931FFF4CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +116,34 @@
 		85C1D8471FC3F146005F1A68 /* Native Cusine */ = {
 			isa = PBXGroup;
 			children = (
+				85B85ADE1FC443FE00A8F11E /* Models */,
+				85C1D85A1FC3F672005F1A68 /* Custom */,
 				85C1D8481FC3F146005F1A68 /* AppDelegate.swift */,
-				85C1D84A1FC3F146005F1A68 /* ViewController.swift */,
+				85C1D8671FC4048D005F1A68 /* Splash Screen.png */,
 				85C1D84C1FC3F146005F1A68 /* Main.storyboard */,
 				85C1D84F1FC3F146005F1A68 /* Assets.xcassets */,
 				85C1D8511FC3F146005F1A68 /* LaunchScreen.storyboard */,
 				85C1D8541FC3F146005F1A68 /* Info.plist */,
+				859173A01FC4156800FA5ADB /* GoogleService-Info.plist */,
+				85C1D84A1FC3F146005F1A68 /* WelcomeVC.swift */,
+				8591739C1FC4144F00FA5ADB /* LoginViewController.swift */,
+				8591739E1FC4147C00FA5ADB /* SignUpViewController.swift */,
+				85B85AE51FC44ACA00A8F11E /* ResetPasswordViewController.swift */,
 			);
 			path = "Native Cusine";
+			sourceTree = "<group>";
+		};
+		85C1D85A1FC3F672005F1A68 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				85C1D85E1FC3F69C005F1A68 /* CustomizableButton.swift */,
+				85C1D85F1FC3F69C005F1A68 /* CustomizableImageView.swift */,
+				85C1D85B1FC3F69C005F1A68 /* CustomizableTextfield.swift */,
+				85C1D85C1FC3F69C005F1A68 /* CustomizableView.swift */,
+				85C1D8601FC3F69C005F1A68 /* ETRadioButton.swift */,
+				85C1D85D1FC3F69C005F1A68 /* Swift+Gif.swift */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85C1D8571FC3F146005F1A68 /* Build configuration list for PBXNativeTarget "Native Cusine" */;
 			buildPhases = (
+				96876C119FE364F5FEF5BE7F /* [CP] Check Pods Manifest.lock */,
 				85C1D8411FC3F146005F1A68 /* Sources */,
 				85C1D8421FC3F146005F1A68 /* Frameworks */,
 				85C1D8431FC3F146005F1A68 /* Resources */,
+				43C19CEC1D058FA8AE0D0D2C /* [CP] Embed Pods Frameworks */,
+				63BFE6F4D754D8367A2745E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,19 +210,81 @@
 			files = (
 				85C1D8531FC3F146005F1A68 /* LaunchScreen.storyboard in Resources */,
 				85C1D8501FC3F146005F1A68 /* Assets.xcassets in Resources */,
+				859173A11FC4156800FA5ADB /* GoogleService-Info.plist in Resources */,
 				85C1D84E1FC3F146005F1A68 /* Main.storyboard in Resources */,
+				85C1D8681FC4048D005F1A68 /* Splash Screen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43C19CEC1D058FA8AE0D0D2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Native Cusine/Pods-Native Cusine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63BFE6F4D754D8367A2745E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Native Cusine/Pods-Native Cusine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96876C119FE364F5FEF5BE7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		85C1D8411FC3F146005F1A68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85C1D84B1FC3F146005F1A68 /* ViewController.swift in Sources */,
+				8591739D1FC4144F00FA5ADB /* LoginViewController.swift in Sources */,
+				85C1D8651FC3F69D005F1A68 /* CustomizableImageView.swift in Sources */,
+				85B85AE21FC4442A00A8F11E /* Utilities.swift in Sources */,
+				85C1D84B1FC3F146005F1A68 /* WelcomeVC.swift in Sources */,
+				85C1D8661FC3F69D005F1A68 /* ETRadioButton.swift in Sources */,
+				8591739F1FC4147C00FA5ADB /* SignUpViewController.swift in Sources */,
 				85C1D8491FC3F146005F1A68 /* AppDelegate.swift in Sources */,
+				85C1D8621FC3F69C005F1A68 /* CustomizableView.swift in Sources */,
+				85C1D8611FC3F69C005F1A68 /* CustomizableTextfield.swift in Sources */,
+				85C1D8631FC3F69D005F1A68 /* Swift+Gif.swift in Sources */,
+				85C1D8641FC3F69D005F1A68 /* CustomizableButton.swift in Sources */,
+				85B85AE31FC4442A00A8F11E /* Constants.swift in Sources */,
+				85B85AE41FC4442A00A8F11E /* FUser.swift in Sources */,
+				85B85AE61FC44ACA00A8F11E /* ResetPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +419,7 @@
 		};
 		85C1D8581FC3F146005F1A68 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89216EEBC9A337960A4158E1 /* Pods-Native Cusine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +435,7 @@
 		};
 		85C1D8591FC3F146005F1A68 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F992F2EF96BAB9438E26F6 /* Pods-Native Cusine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
