@@ -95,6 +95,17 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		85B85AE71FC45BC200A8F11E /* Gateway */ = {
+			isa = PBXGroup;
+			children = (
+				85C1D84A1FC3F146005F1A68 /* WelcomeVC.swift */,
+				8591739C1FC4144F00FA5ADB /* LoginViewController.swift */,
+				8591739E1FC4147C00FA5ADB /* SignUpViewController.swift */,
+				85B85AE51FC44ACA00A8F11E /* ResetPasswordViewController.swift */,
+			);
+			path = Gateway;
+			sourceTree = "<group>";
+		};
 		85C1D83C1FC3F146005F1A68 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +127,7 @@
 		85C1D8471FC3F146005F1A68 /* Native Cusine */ = {
 			isa = PBXGroup;
 			children = (
+				85B85AE71FC45BC200A8F11E /* Gateway */,
 				85B85ADE1FC443FE00A8F11E /* Models */,
 				85C1D85A1FC3F672005F1A68 /* Custom */,
 				85C1D8481FC3F146005F1A68 /* AppDelegate.swift */,
@@ -125,10 +137,6 @@
 				85C1D8511FC3F146005F1A68 /* LaunchScreen.storyboard */,
 				85C1D8541FC3F146005F1A68 /* Info.plist */,
 				859173A01FC4156800FA5ADB /* GoogleService-Info.plist */,
-				85C1D84A1FC3F146005F1A68 /* WelcomeVC.swift */,
-				8591739C1FC4144F00FA5ADB /* LoginViewController.swift */,
-				8591739E1FC4147C00FA5ADB /* SignUpViewController.swift */,
-				85B85AE51FC44ACA00A8F11E /* ResetPasswordViewController.swift */,
 			);
 			path = "Native Cusine";
 			sourceTree = "<group>";
